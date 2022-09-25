@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+    width: 100%;
+    text-align: left;
+}
+
+.heading h3 {
+    display: inline;
+}
+
+.instructions {
+    float: right;
+    border: 2px white solid;
+}
+
+.big_img {
+    width: 100%;
+}
+
+#start {
+    font-size: 22px;
+}
+
+.game_credit {
+    background-color: aquamarine;
+    margin: 0;
+    line-height: 2; 
+}
+
+.modal-dialog {
+    width: 90%;
+}
+
+.modal-content {
+    background-color:rgba(200, 241, 112, 0.705);
+}
+
+.instructions_image {
+    display: inline-block;
+    width: 45%;
+}
+
+video {
+    background: url("game_console.png");
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+}
